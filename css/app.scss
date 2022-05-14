@@ -1,18 +1,23 @@
 // Variables
 
 :root{
-    --hue: 353;
-    --main: hsl(var(--hue), 65%, 55%);
-    --dark: hsl(var(--hue), 65%, 35%);
-    --light: hsl(var(--hue), 65%, 75%);
+    --hue: 148;
+    --main: hsl(var(--hue), 80%, 60%);
+    --dark: hsl(var(--hue), 80%, 40%);
+    --light: hsl(var(--hue), 80%, 80%);
+    --black: #030617;
     --radius: 5px;
+}
+
+::selection {
+  color: var(--black);
+  background: var(--main);
 }
 
 // Mixins
 
 @mixin set_button{
     font-family: 'Inter', serif;
-    letter-spacing: 2px;
     font-size: 1.2em;
     border: 2px solid white;
     background: transparent; 
@@ -43,7 +48,7 @@
     }
     
     &:hover{
-        color: white;
+        color: var(--black);
         border-color: var(--main);
         &:before{
             width: 100%;
@@ -107,15 +112,20 @@ body{
         
         h1{
             font-size: 5rem;
-            background: -webkit-linear-gradient(white, antiquewhite);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: white;
         }
         
         p{
             margin-bottom: 3rem;
             
             a{color: white;}
+        }
+
+        hr{
+            border: 0;
+            border-bottom: 1px solid white;
+            margin: 1rem 0.5rem;
+            opacity: 0.25;
         }
         
         button{
@@ -128,8 +138,9 @@ body{
         max-height: 100vh;
         min-height: 100vh;
         overflow-y: scroll;
-        background-color: antiquewhite;
+        background-color: var(--black);
         position: relative;
+        color: white;
         
         #loremcontent{
             max-width: 70%;

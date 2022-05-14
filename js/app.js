@@ -5,13 +5,13 @@ $(document).ready(function(){
     ]
 
     let quotes = [
-       "They Really Should Put The Warnings Before This Spell.",
-       "What Is This? My Mantra?",
-       "Any Late Fees I Should Know About? A Maiming Perhaps?",
-       "Unlike Everyone Else In Your Life, I Don't Work For You.",
-       "I'm Fluent In Google Translate.",
-       "I Do Not Believe In Fairy Tales About Chakras Or Energy Or The Power Of Belief.",
-       "I'll Tell The Guys At The Deli. Maybe They'll Make You A Metaphysical Ham On Rye.",
+       "They really should put the warnings before this spell.",
+       "What is this? My mantra?",
+       "Any late fees I should know about? A maiming perhaps?",
+       "Unlike everyone else in your life, I don't work for you.",
+       "I'm fluent in Google Translate.",
+       "I do not believe in fairy tales about chakras or energy or the power of belief.",
+       "I'll tell the guys at the Deli. Maybe they'll make you a metaphysical ham on rye.",
        "Wong. Just Wong? Like Adele? Or Aristotle, Drake, Bono... Eminem.",
        "We’re in the endgame now.",
        "I went forward in time, to view alternate futures. To see all the possible outcomes of the coming conflict.",
