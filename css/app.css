@@ -19,6 +19,7 @@
 
 body {
   font-family: "Inter", serif;
+  font-size: 12px;
   display: -ms-grid;
   display: grid;
   margin: 0;
@@ -68,7 +69,7 @@ body section#info > * {
   position: relative;
 }
 body section#info h1 {
-  font-size: 5rem;
+  font-size: 2rem;
   color: white;
 }
 body section#info p {
@@ -85,11 +86,10 @@ body section#info hr {
 }
 body section#info button {
   font-family: "Inter", serif;
-  font-size: 1.2em;
+  font-size: 1.1em;
   border: 2px solid white;
   background: transparent;
-  padding: 1rem 3rem;
-  padding-bottom: 1.2rem;
+  padding: 1rem 2rem;
   margin: 0.3rem;
   color: white;
   cursor: pointer;
@@ -122,9 +122,8 @@ body section#info button:hover:before {
   width: 100%;
 }
 body section#info button.sm {
-  padding: 0.75rem 2rem;
-  padding-bottom: 0.9rem;
-  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
 }
 body section#loremipsum {
   -ms-flex-item-align: start;

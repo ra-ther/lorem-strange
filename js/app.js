@@ -5,22 +5,22 @@ $(document).ready(function(){
     ]
 
     let quotes = [
-       "They really should put the warnings before this spell.",
+       "They really should put the warnings before this spell",
        "What is this? My mantra?",
        "Any late fees I should know about? A maiming perhaps?",
-       "Unlike everyone else in your life, I don't work for you.",
-       "I'm fluent in Google Translate.",
-       "I do not believe in fairy tales about chakras or energy or the power of belief.",
-       "I'll tell the guys at the Deli. Maybe they'll make you a metaphysical ham on rye.",
-       "Wong. Just Wong? Like Adele? Or Aristotle, Drake, Bono... Eminem.",
-       "We’re in the endgame now.",
-       "I went forward in time, to view alternate futures. To see all the possible outcomes of the coming conflict.",
-       "If I tell you what happens, it won't happen.",
-       "Don't shut me out. I haven't got anywhere else to go...Thank you.",
-       "Dormammu, I've come to bargain.",
-       "This is the part where you leave.",
+       "Unlike everyone else in your life, I don't work for you",
+       "I'm fluent in Google Translate",
+       "I do not believe in fairy tales about chakras or energy or the power of belief",
+       "I'll tell the guys at the Deli. Maybe they'll make you a metaphysical ham on rye",
+       "Wong. Just Wong? Like Adele? Or Aristotle, Drake, Bono... Eminem",
+       "We’re in the endgame now",
+       "I went forward in time, to view alternate futures. To see all the possible outcomes of the coming conflict",
+       "If I tell you what happens, it won't happen",
+       "Don't shut me out. I haven't got anywhere else to go...Thank you",
+       "Dormammu, I've come to bargain",
+       "This is the part where you leave",
        "What's in that tea? Psilocybin? LSD?",
-       "I control it by surrendering control? That doesn't make any sense."
+       "I control it by surrendering control? That doesn't make any sense"
 
    ];
     
@@ -42,7 +42,7 @@ $(document).ready(function(){
     
     // Rich paragraph
     
-    function generatePro(){
+    function generateRich(){
         
         var paragraph = "";
         
@@ -69,7 +69,7 @@ $(document).ready(function(){
         $("#loremcontent").append("<p>" + paragraph + "</p>");
     }
     
-    $("#trigger_lorem_pro").click(generatePro);
+    $("#trigger_lorem_pro").click(generateRich);
     
     // Generate Title
     
